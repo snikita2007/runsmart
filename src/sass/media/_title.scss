@@ -1,15 +1,32 @@
 @media (max-width: 1200px) {
     .title {
         font-size: 28px;
+        &_left {
+            font-size: 27px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .title {
+        font-size: 26px;
+        &_left {
+            font-size: 24px;
+        }
     }
 }
 @media (max-width: 767px) {
     .title {
-        font-size: 26px;
+        font-size: 18px;
+        &_left {
+            font-size: 21px;
+        }
     }
 }
 @media (max-width: 575px) {
     .title {
-        font-size: 18px;
+        &_left {
+            text-align: center;
+            font-size: 15px;
+        }
     }
 }

@@ -1,0 +1,109 @@
+@media (max-width: 1200px) {
+    .promo {
+        min-height: 515px;
+        padding-bottom: 60px;
+        &__wrapper {
+            margin-top: 55px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        &__icons {
+            margin-top: 35px;
+            width: 390px;
+        }
+        &__icon {
+            font-size: 13px;
+            img {
+                margin-bottom: 15px;
+                width: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .promo {
+        min-height: 420px;
+        padding: 10px 0 42px 0;
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            font-size: 18px;
+            margin-top: 3px;
+        }
+        &__icons {
+            margin-top: 15px;
+            width: 335px;
+        }
+        &__icon {
+            font-size: 12px;
+            img{
+                width: 37px;
+                margin-bottom: 10px;
+            }
+        }
+        &__link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        min-height: 360px;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 15px;
+            margin-top: 0;
+        }
+        &__icons {
+            margin-top: 10px;
+        }
+        &__icon {
+            width: 99px;
+            font-size: 11px;
+            img {
+                width: 34px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        min-height: 320px;
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__header {
+            font-size: 21px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__icons {
+            margin-top: 10px;
+            width: 275px;
+        }
+        &__icon {
+            font-size: 9px;
+            width: 80px;
+            img {
+                width: 25px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
